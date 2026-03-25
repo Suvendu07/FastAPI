@@ -1,0 +1,157 @@
+Phase 1: Foundations (You're here ✓)
+
+✓ HTTP methods (GET, POST, PUT, DELETE, PATCH)
+✓ Path parameters and query parameters
+✓ HTTPException and status codes
+✓ Pydantic models for validation
+
+Phase 2: Core Concepts (Next 1-2 weeks)
+
+Dependency Injection
+
+Basic dependencies
+Class-based dependencies
+Dependency chains
+Global dependencies
+
+
+Request handling
+
+Request body (multiple models)
+Form data and file uploads
+Headers and cookies
+
+
+Response handling
+
+Response models and response_model
+Status codes
+Response model filtering
+
+
+
+Phase 3: Database & ORM (Week 3-4)
+
+SQLAlchemy basics
+
+Models and relationships
+Sessions and engine setup
+
+
+Database operations
+
+CRUD operations
+Async SQLAlchemy (optional but recommended)
+Database dependencies
+
+
+Alembic
+
+Migrations setup
+Creating and running migrations
+
+
+
+Phase 4: Authentication & Security (Week 5)
+
+Security basics
+
+Password hashing (bcrypt/passlib)
+OAuth2 with password flow
+
+
+JWT tokens
+
+Creating tokens
+Verifying tokens
+Protected routes
+
+
+Authorization
+
+Role-based access control
+Permission dependencies
+
+
+
+Phase 5: Advanced Features (Week 6-7)
+
+Middleware
+
+Custom middleware
+CORS configuration
+Request/response logging
+
+
+Background tasks
+
+Simple background jobs
+Celery integration (for complex tasks)
+
+
+WebSockets (if needed)
+File handling
+
+File uploads
+Serving static files
+
+
+
+Phase 6: Testing & Best Practices (Week 8)
+
+Testing
+
+pytest basics
+TestClient usage
+Dependency overrides in tests
+Database testing (fixtures)
+
+
+Project structure
+
+Routers and modular organization
+Config management (environment variables)
+Error handling patterns
+
+
+
+Phase 7: Deployment & Production (Week 9-10)
+
+Dockerization
+
+Creating Dockerfile
+Docker Compose for dev environment
+
+
+Deployment
+
+Uvicorn/Gunicorn configuration
+Environment setup
+Deploy to Railway/Render/AWS
+
+
+Production considerations
+
+Logging
+Monitoring
+Rate limiting
+Caching (Redis)
+
+
+
+Practice Projects (Build along the way)
+Beginner:
+
+Todo API with authentication
+Blog API (posts, comments, users)
+
+Intermediate:
+
+E-commerce backend (products, cart, orders)
+Social media API (posts, likes, follows)
+
+Advanced:
+
+Real-time chat application (WebSockets)
+File sharing service
+Multi-tenant SaaS backend
